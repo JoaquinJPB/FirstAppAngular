@@ -8,7 +8,7 @@ Requisitos:
 Este proyecto es la primera prueba de desarrollar un proyecto entero utilizando el framework de Angular. 
 Se ha basado en el tutorial implícito que se encuentra en la documentación oficial de Angular.
 
-Este tutorial trata de explicar el funcionamiento de los componenetes y de como funcionan, además de explicar cosas importantes como las rutas o el acceso a los datos.
+Este tutorial trata de explicar el funcionamiento de los componenetes y de como interactuan entre sí, además de explicar cosas importantes como las rutas o el acceso a los datos.
 
 En resumen, la aplicación Tour of Heroes que construyes ayuda a una agencia de empleo a gestionar su plantilla de héroes. 
 La aplicación tiene muchas de las características que esperarías encontrar en cualquier aplicación basada en datos. 
