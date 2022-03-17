@@ -1,24 +1,28 @@
 /* HeroDetailComponent's private CSS styles */
-label {
-    color: #435960;
-    font-weight: bold;
+.hero-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-input {
-    font-size: 1em;
-    padding: .5rem;
+
+.hero-detail h2{
+    font-size: 2.5rem;
+    color: #3f51b5;
 }
-button {
-    margin-top: 20px;
-    background-color: #eee;
-    padding: 1rem;
-    border-radius: 4px;
-    font-size: 1rem;
+
+.hero-detail span,
+.hero-detail label,
+.hero-detail input{
+    font-size: 1.5rem;
 }
-button:hover {
-    background-color: #cfd8dc;
+
+
+.hero-detail div:nth-child(2),
+.hero-detail div:nth-child(3){
+    margin: 1rem 0;
 }
-button:disabled {
-    background-color: #eee;
-    color: #ccc;
-    cursor: auto;
+
+.hero-detail div:last-child button{
+    margin: 1rem .5rem;
 }

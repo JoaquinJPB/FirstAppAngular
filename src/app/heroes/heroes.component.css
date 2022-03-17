@@ -1,90 +1,78 @@
-/* HeroesComponent's private CSS styles */
-.heroes {
-    margin: 0 0 2em 0;
-    list-style-type: none;
-    padding: 0;
-    width: 15em;
+html,
+body {
+	height: 100%;
 }
 
-input {
-    display: block;
-    width: 100%;
-    padding: .5rem;
-    margin: 1rem 0;
-    box-sizing: border-box;
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
 }
 
-.heroes li {
-    position: relative;
-    cursor: pointer;
+.my-heroes{
+    margin: 2rem;
 }
 
-.heroes li:hover {
-    left: .1em;
+.my-heroes h2{
+    color: #3f51b5;
 }
 
-.heroes a {
-    color: #333;
-    text-decoration: none;
-    background-color: #EEE;
-    margin: .5em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px;
-    display: block;
-    width: 100%;
-}
-
-.heroes a:hover {
-    color: #2c3a41;
-    background-color: #e6e6e6;
-}
-
-.heroes a:active {
-    background-color: #525252;
-    color: #fafafa;
-}
-
-.heroes .badge {
-    display: inline-block;
-    font-size: small;
-    color: white;
-    padding: 0.8em 0.7em 0 0.7em;
-    background-color: #405061;
-    line-height: 1em;
-    position: relative;
-    left: -1px;
-    top: -4px;
-    height: 1.8em;
-    min-width: 16px;
-    text-align: right;
-    margin-right: .8em;
-    border-radius: 4px 0 0 4px;
-}
-
-.add-button {
-    padding: .5rem 1.5rem;
+.my-heroes label{
+    font-weight: bold;
     font-size: 1rem;
-    margin-bottom: 2rem;
 }
 
-.add-button:hover {
-    color: white;
-    background-color: #42545C;
+.my-heroes input{
+    margin: 0 1rem;
 }
 
-button.delete {
-    position: absolute;
-    left: 210px;
-    top: 5px;
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th{
+	padding: 1rem;
+	background-color: #3f51b5;
+	color: #fff;
+    
+}
+
+th,td{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+td a:hover{
+    color: #3f51b5;
+}
+
+td{
+    padding: 1rem;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+button{
+    margin: 0.5rem 0;
+}
+
+button:hover{
     background-color: white;
-    color:  #525252;
-    font-size: 1.1rem;
-    margin: 0;
-    padding: 1px 10px 3px 10px;
+    color: #3f51b5;
+    border: 2px solid #3f51b5;
 }
 
-button.delete:hover {
-    background-color: #525252;
-    color: white;
-}
+

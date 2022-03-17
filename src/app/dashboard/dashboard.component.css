@@ -1,49 +1,31 @@
-/* DashboardComponent's private CSS styles */
-h2 {
-    text-align: center;
-}
 
-.heroes-menu {
-    padding: 0;
-    margin: auto;
-    max-width: 1000px;
-
-    /* flexbox */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: flex-start;
-    align-items: flex-start;
-}
-
-a {
-    background-color: #3f525c;
-    border-radius: 2px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
+.container-menu{
     width: 100%;
-    min-width: 70px;
-    margin: .5rem auto;
-    box-sizing: border-box;
-
-    /* flexbox */
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (min-width: 600px) {
-a {
-    width: 18%;
-    box-sizing: content-box;
-}
+.heroes-menu{
+
 }
 
-a:hover {
-background-color: #000;
+.heroes-menu h2 {
+    text-align: center;
+    color: #3f51b5;
+    font-size: 2.5rem;
 }
+
+.heroes-menu button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.heroes-menu button:hover{
+    background-color: white;
+    color: #3f51b5;
+    border: 2px solid #3f51b5;
+}
+
