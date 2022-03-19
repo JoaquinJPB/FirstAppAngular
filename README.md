@@ -18,3 +18,5 @@ Una vez terminada adquiere y muestra una lista de héroes, edita los detalles de
 
 Además de esto, tras terminar el tutorial he procedido a usar la libreria de Angular Material para darle más estilo a la página aparte del dado con el propio CSS creado por mí.
 
+Puede acceder a la vista de como ha quedado la aplicación en el siguiente enlace:
+https://joaquinjpb.github.io/FirstAppAngular/dashboard
